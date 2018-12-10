@@ -1,0 +1,209 @@
+#page {
+    padding-top: 60px;
+}
+.b-add{
+    border: solid;
+    margin-bottom: 20px!important;    
+}
+
+a.button, .list a.button {
+	text-decoration: none;
+	color: #FFF;
+	display: inline-block;
+	padding: 5px 15px 5px 15px;
+	background: #003A88;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-khtml-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+.list {
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+.list td {
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+.list thead td {
+	background-color: #EFEFEF;
+	padding: 0px 5px;
+}
+.list thead td a, .list thead td {
+	text-decoration: none;
+	color: #222222;
+	font-weight: bold;
+}
+.list tbody td a {
+	text-decoration: underline;
+}
+.list tbody td {
+	vertical-align: middle;
+	padding: 0px 5px;
+	background: #FFFFFF;
+}
+.list .left {
+	text-align: left;
+	padding: 7px;
+}
+.list .right {
+	text-align: right;
+	padding: 7px;
+}
+.list .center {
+	text-align: center;
+	padding: 7px;
+}
+.list .asc {
+	padding-right: 15px;
+	background: url('../image/asc.png') right center no-repeat;
+}
+.list .desc {
+	padding-right: 15px;
+	background: url('../image/desc.png') right center no-repeat;
+}
+.list tr.filter td {
+	padding: 5px;
+	background: #E7EFEF;
+}
+
+.other_day, .day_off, .m_day{
+
+}
+span.date_header{
+    display: inline-table;
+    width: 100%;
+    text-align: right;
+}
+.adm_table_calendar tbody tr td {
+    width: 120px;
+    height: 120px;
+    border: solid 1px #fff;
+    vertical-align: top;
+    border-collapse: separate!important;
+}
+.adm_table_calendar tbody tr td:hover {
+    border-collapse: separate!important;
+    background-color: #EEE;
+    border: 1px solid #E3E3E3;
+}
+a.adm_table_calendar_add{
+    display: inline-table;
+    width: 100%;
+    text-align: right;
+}
+.day_off{
+    background-color: #F5F5F5;
+}
+a.adm_table_calendar_other_day_a{
+    display: inline-table;
+    height: 100%;
+    width: 100%;
+}
+.other_day{
+    background-color: #F5F5F5;
+}
+.other_day a:hover{
+    text-decoration: none;
+}
+td.ct_header{
+    height: 20px!important;
+    background-color: #0088CC;
+    color:#fff;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse:collapse;
+    padding: 5px;
+}
+td.ct_header:hover:hover{
+    background-color: #0088CC!important;
+    color:#fff;
+}
+.calendar-t{
+    width: 110px;
+    height: 16px;
+    overflow: hidden;
+    display: block;
+    background-color: #FCF8E3;
+    padding: 0;
+    margin: 0;
+    line-height: 14px;
+    margin-top: 4px;
+    color:#fff;
+}
+
+/*оплата не подтверждена*/
+.pay-status-1{
+    color:#ff0000!important;
+}
+/*оплачен*/
+.pay-status-2{
+    color:#f4ad01!important;
+}
+/*на доставке*/
+.pay-status-3{
+    color:#376BDA!important;
+}
+/*доставлен*/
+.pay-status-4{
+    color:#3d7912!important;
+}
+
+/*banners sortable*/
+
+
+.banner-list ul {
+	margin: 1em;
+	list-style: none;
+	padding: 0;
+	padding: 0.5em;
+}
+
+.banner-list ul li {
+	border: solid 1px #aaaaaa;
+	padding: 0.5em;
+	margin: 0.2em;
+	background-color: #eeeeee;
+	text-align: right;
+	clear: both;  
+        height: 140px;
+    
+}
+
+.banner-list ul li span.note {
+	float: left;
+}
+
+.banner-list ul li a  img{
+	border: none;
+}
+.pbanners{
+    float: left;
+    height: 140px;
+    width: 306px;
+    cursor: move;
+}
+
+
+.adm-checkbox-leaders{}
+ul.adm-checkbox-leaders li{
+    width: 33%;
+    display: inline-table;
+    margin-bottom: 5px;
+}
+ul.adm-checkbox-leaders{
+    margin: 0;
+}
+ul.adm-checkbox-leaders li input{
+    margin-right: 10px;
+    margin-top: -3px;
+}
+ul.adm-checkbox-leaders li label{
+    display: inline-table;
+    width:90%;
+}

@@ -1,0 +1,52 @@
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; margin-top:-40px;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#cboxTopCenter { height:95px;  background:#fede00; position:absolute;}
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{}
+    #cboxContent{margin-top:30px; overflow:visible;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{background:#000; padding:0px;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxLoadingOverlay{background:#000;}
+        #cboxTitle{position:absolute; top:-30px; left:0; color:#000; font-weight:bold; letter-spacing:1px; padding:6px 10px; text-transform:uppercase; font-family: 'CaviarDreamsRegular', sans-serif; font-size:16px;}
+		#cboxCurrent, .cboxCurrent{ color:#000; position:absolute; top:-22px; right:70px;}
+        #cboxSlideshow, #cboxPrevious, #cboxNext, #cboxClose {text-indent:-9999px; width:30px; height:30px; position:absolute; top:-30px; background:url(images/controls.png) no-repeat 0 0;}
+		.gs-share { position:absolute; top:-30px; right:130px; border-right:1px solid black; border-left:1px solid black; padding-left:8px  }
+		.gs-share a { text-indent:-9999px; display:block; width:30px; height:30px; background:url(images/controls.png) no-repeat 0 0; float:left; }
+        
+		.gs-share a.mail { background-position:-60px top; }
+		.gs-share a.mail:hover { background-position:-60px bottom; }
+		
+		.gs-share a.fb { background-position:-30px top; }
+		.gs-share a.fb:hover { background-position:-30px bottom; }
+		.gs-link { position:absolute; top:-30px; right:200px; border-left:1px solid black; padding:0 5px;  }
+		.gs-link a { text-indent:-9999px; display:block; width:30px; height:30px; background:url(images/controls.png) no-repeat 0 0; float:left; }
+		.gs-link a:hover { background-position:left bottom; }
+		#cboxPrevious{background-position:-90px top; right:95px; }
+        #cboxPrevious.hover{background-position:-90px bottom;}
+        #cboxNext{background-position:-120px top; right:35px;}
+        #cboxNext.hover{background-position:-120px bottom;}
+        #cboxClose{background-position:right top; right:0;}
+        #cboxClose.hover{background-position:right bottom;}
+        .cboxSlideshow_on #cboxPrevious, .cboxSlideshow_off #cboxPrevious{right:66px;}
+        .cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px; right:44px;}
+        .cboxSlideshow_on #cboxSlideshow.hover{background-position:-100px -25px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
+        .cboxSlideshow_off #cboxSlideshow.hover{background-position:-75px -25px;}
